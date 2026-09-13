@@ -21,7 +21,7 @@ st.set_page_config(
 # PROJECT PATHS
 # =========================================================
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
+PROJECT_ROOT = "DCM_V3"
 
 LINEUP_PATH = PROJECT_ROOT / "data" / "lineup" / "lineup_data.csv"
 
