@@ -24,7 +24,7 @@ col1, col2, col3 = st.columns([1, 2, 1])
 with col2: 
 
     st.image(
-        "yDashboard/assets/FILM ROOM.png",
+        "DCM_V3/yDashboard/assets/FILM ROOM.png",
         use_container_width=False,
         
 )
