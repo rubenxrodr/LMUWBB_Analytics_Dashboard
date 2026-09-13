@@ -3,7 +3,7 @@ import streamlit as st
 from pathlib import Path
 from html import escape
 from textwrap import dedent
-from matplotlib import cm
+from matplotlib import colormaps
 from matplotlib.colors import Normalize, to_hex
 
 
@@ -144,7 +144,7 @@ def rel_pm_color(value, max_abs):
 
     normalized = (value + max_abs) / (2 * max_abs)
 
-    cmap = cm.get_cmap("RdYlGn")
+    cmap = colormaps("RdYlGn")
     color = to_hex(cmap(normalized))
 
     return f"background-color: {color};"
