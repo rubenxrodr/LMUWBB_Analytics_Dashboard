@@ -119,8 +119,8 @@ with col2:
 
 with col3:
     st.metric(
-        "Off eFG%",
-        f"{team['O_eFG%']:.1%}"
+        "Score Rate",
+        f"{team['Score Rate']:.1%}"
     )
 
 with col4:
