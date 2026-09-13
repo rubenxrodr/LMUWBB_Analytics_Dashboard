@@ -20,7 +20,7 @@ st.set_page_config(
 
 
 
-DATA_PATH = "/Users/rrodr102/Desktop/Python/DCM_V3/data/lineup/team_overview_4a.csv"
+DATA_PATH = "DCM_V3/data/lineup/team_overview_4a.csv"
 
 df = pd.read_csv(DATA_PATH)
 
