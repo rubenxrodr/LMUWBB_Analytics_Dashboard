@@ -125,8 +125,8 @@ with col3:
 
 with col4:
     st.metric(
-        "Off FTR",
-        f"{team['O_FTR']:.1%}"
+        "Completed Off Poss",
+        f"{team['Completed Off Poss']:.0f}"
     )
 
 
