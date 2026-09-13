@@ -265,7 +265,7 @@ if not ranking_df.empty:
  
     leader_name = leader["Player"].split(" ",1)[1]
     with col1:
-        image_path = Path("yDashboard/assets") / f"{leader_name}.webp"
+        image_path = Path("DCM_V3/yDashboard/assets") / f"{leader_name}.webp"
         st.image(image_path, width=150)
 
     with col2:
