@@ -144,7 +144,7 @@ def rel_pm_color(value, max_abs):
 
     normalized = (value + max_abs) / (2 * max_abs)
 
-    cmap = colormaps("RdYlGn")
+    cmap = colormaps["RdYlGn"]
     color = to_hex(cmap(normalized))
 
     return f"background-color: {color};"
