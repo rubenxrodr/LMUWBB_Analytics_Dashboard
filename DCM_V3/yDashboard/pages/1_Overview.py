@@ -36,14 +36,19 @@ team = df.iloc[0]
 # TITLE
 # =========================================================
 
-st.title("Team Overview")
+col1, col2 = st.columns([5, 1])
+
+with col1:
+    st.title("Team Overview")
+
+with col2:
+    st.image("DCM_V3/yDashboard/assets/athletics.png", width=100)
 
 st.caption(
     "4A — Team-level offensive, defensive, and process performance"
 )
 
 st.divider()
-
 
 # =========================================================
 # TEAM SNAPSHOT
