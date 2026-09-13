@@ -23,7 +23,7 @@ st.set_page_config(
 
 PROJECT_ROOT = "DCM_V3"
 
-LINEUP_PATH = "data/lineup/lineup_data.csv"
+LINEUP_PATH = "DCM_V3/data/lineup/lineup_data.csv"
 
 
 # =========================================================
