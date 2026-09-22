@@ -242,7 +242,9 @@ st.divider()
 st.header("Defensive Process")
 
 st.caption(
-    "How frequently our defensive behaviors occurred across defensive possessions."
+    "How frequently our defensive behaviors occurred across defensive possessions. 
+    Note that this is counts for how many possessions contained at least one of these occurrences. 
+    So even though it may say '25 paint touches' that's the number of possessions with a paint touch not the total number of paint touches allowed by our team."
 )
 
 
